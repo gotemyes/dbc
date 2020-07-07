@@ -6,10 +6,10 @@ table, th, td {
 }
 
 .organiser {
-  text-align: center;
-  border: 0px;
-  vertical-align: top;
-  padding-right: 10px;
+  text-align: center !important;
+  border: 0px !important;
+  vertical-align: top !important;
+  padding-right: 10px !important;
 }
 
 meter {
