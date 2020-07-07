@@ -1,24 +1,23 @@
 from shutil import copyfile
 import pandas as pd
 import sys, os
-sys.path.append('../')
-
+sys.path.append('../../')
 
 import data.teamDict as td
 
-batData = pd.read_csv('../data/dbc_stats - batting.csv')
-bowlData = pd.read_csv('../data/dbc_stats - bowling.csv')
+batData = pd.read_csv('../../data/dbc_stats - batting.csv')
+bowlData = pd.read_csv('../../data/dbc_stats - bowling.csv')
 
 
 
-if not os.path.exists('games'):
-    os.makedirs('games')
+if not os.path.exists('../resources/games'):
+    os.makedirs('../resources/games')
 
 seasons = batData['season'].unique()
 
 for season in seasons:
-    if not os.path.exists(f'games/s{season}'):
-        os.makedirs(f'games/s{season}')
+    if not os.path.exists(f'../resources/games/s{season}'):
+        os.makedirs(f'../resources/games/s{season}')
 
     opponents = batData[batData['season']==season]['opponent'].unique()
 
@@ -85,12 +84,13 @@ for season in seasons:
         <html>
           <head>
             <title>{opponent} - Season {season}</title>
-            <link href="../../style.css" rel="stylesheet" type="text/css">
+            <link href="../../css/style.css" rel="stylesheet" type="text/css">
+            <link rel="shortcut icon" type="image/x-icon" href="../../images/cricket.ico">
           </head>
           <body>
             <header>
               <h1>{opponent} - Season {season}</h1>
-              <h3><a href="../../index.html" target="_self">Back To Home</a></h3>
+              <h3><a href="../../../index.html" target="_self">Back To Home</a></h3>
             </header>
               <main>
                 <h2>Highlights</h2>
@@ -245,6 +245,6 @@ for season in seasons:
         </html>'''
 
 
-        html_file= open(f"./games/s{season}/{td.teamCodes[opponent]}.html","w")
+        html_file= open(f"../resources/games/s{season}/{td.teamCodes[opponent]}.html","w")
         html_file.write(gameHTML)
         html_file.close()

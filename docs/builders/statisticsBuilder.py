@@ -1,11 +1,11 @@
 import pandas as pd
 import sys
-sys.path.append('../')
+sys.path.append('../../')
 
 import data.teamDict as td
 
-batData = pd.read_csv('../data/dbc_stats - batting.csv')
-bowlData = pd.read_csv('../data/dbc_stats - batting.csv')
+batData = pd.read_csv('../../data/dbc_stats - batting.csv')
+bowlData = pd.read_csv('../../data/dbc_stats - bowling.csv')
 
 ### RUNS
 totalRuns = batData.groupby('player').sum().reset_index().sort_values('runs',ascending=False)
@@ -102,7 +102,8 @@ statisticsHTML = f'''<!DOCTYPE html>
 <html>
   <head>
     <title>Statistics</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="../css/style.css" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" type="image/x-icon" href="../images/cricket.ico">
   </head>
   <body>
     <header>
@@ -113,7 +114,7 @@ statisticsHTML = f'''<!DOCTYPE html>
           <li><a href="#average" target="_self">Batting Averages</a></li>
         <ul>
       </nav>
-      <h3><a href="./index.html" target="_self">Back To Home</a></h3>
+      <h3><a href="../../index.html" target="_self">Back To Home</a></h3>
     </header>
     <main>
       <section>
@@ -206,6 +207,6 @@ statisticsHTML = f'''<!DOCTYPE html>
 '''
 
 
-html_file= open("statistics.html","w")
+html_file= open("../resources/pages/statistics.html","w")
 html_file.write(statisticsHTML)
 html_file.close()

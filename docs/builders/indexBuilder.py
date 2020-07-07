@@ -1,12 +1,11 @@
 import pandas as pd
 import sys
-sys.path.append('../')
+sys.path.append('../../')
 
 import data.teamDict as td
 
-batData = pd.read_csv('../data/dbc_stats - batting.csv')
-bowlData = pd.read_csv('../data/dbc_stats - batting.csv')
-
+batData = pd.read_csv('../../data/dbc_stats - batting.csv')
+bowlData = pd.read_csv('../../data/dbc_stats - bowling.csv')
 ### PROGRESS
 maxScore = batData.groupby('gameID').sum()['runs'].max()
 
@@ -174,7 +173,7 @@ currentSeason = batData['season'].max()
 opponents = batData[batData['season']==currentSeason].groupby('opponent').mean().sort_values('gameID',ascending=True).index.tolist()
 oppTags = []
 for opp in opponents:
-    tag = f'<li><a href="./games/s{currentSeason}/{td.teamCodes[opp]}.html" target="_self">{opp}</a></li>'
+    tag = f'<li><a href="./resources/games/s{currentSeason}/{td.teamCodes[opp]}.html" target="_self">{opp}</a></li>'
     oppTags.append(tag)
 
 seasonTag = ('\n'+' '*10).join(oppTags)
@@ -185,7 +184,8 @@ indexHTML = f'''<!DOCTYPE html>
 <html>
   <head>
     <title>DBC - The Quest For 1000</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="./resources/css/style.css" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" type="image/x-icon" href="./resources/images/cricket.ico">
   </head>
   <body>
     <header>
@@ -195,7 +195,7 @@ indexHTML = f'''<!DOCTYPE html>
       <span class="meter-value">0</span>
       <meter min="0" max="1000" value="{maxScore}" id="runs">maxScore</meter>
       <span class="meter-value">1000</span>
-      <h3><a href="./archive.html" target="_self">Previous Seasons</a></h3>
+      <h3><a href="./resources/pages/archive.html" target="_self">Previous Seasons</a></h3>
     </header>
     <main>
       <section>
@@ -286,7 +286,7 @@ indexHTML = f'''<!DOCTYPE html>
                 </tr>
             </table>
           <section>
-            <h2><a href="./statistics.html" target="_self">More Statistics</a></h2>
+            <h2><a href="./resources/pages/statistics.html" target="_self">More Statistics</a></h2>
           </section>
             <figure>
               <img src="../figures/runProgression.png" alt="Career Progression">
@@ -297,6 +297,6 @@ indexHTML = f'''<!DOCTYPE html>
 '''
 
 
-html_file= open("index.html","w")
+html_file= open("../index.html","w")
 html_file.write(indexHTML)
 html_file.close()
