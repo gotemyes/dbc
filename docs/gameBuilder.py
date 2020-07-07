@@ -28,6 +28,7 @@ for season in seasons:
         thisGame['balls_faced']=['' if pd.isnull(el) else int(el) for el in thisGame['balls_faced'].values]
         thisGame['fours']=['' if pd.isnull(el) else int(el) for el in thisGame['fours'].values]
         thisGame['sixes']=['' if pd.isnull(el) else int(el) for el in thisGame['sixes'].values]
+        thisGame['sr']=['{:.2f}'.format(el) for el in thisGame['sr'].values]
 
         topBat = thisGame.sort_values('runs',ascending=False).iloc[:3]
         topBatList = []
@@ -36,6 +37,12 @@ for season in seasons:
             topBatList.append(performance)
 
         thisGameBowl = bowlData[(bowlData['season']==season)&(bowlData['country']==opponent)].copy()
+        thisGameBowl['extras']=['' if pd.isnull(el) else int(el) for el in thisGameBowl['extras'].values]
+        thisGameBowl['full_overs']=[round(el) for el in thisGameBowl['overs'].values]
+        thisGameBowl['int_overs']=[str(round(el,1)).replace('.0','') for el in thisGameBowl['overs'].values]
+        thisGameBowl['balls']=[el[0]*6+round((el[1]-el[0])*10) for el in thisGameBowl[['full_overs','overs']].values]
+        thisGameBowl['sr']=['{:.2f}'.format(round(el[0]/el[1],2)) if el[1]>0 else '-' for el in thisGameBowl[['balls','wickets']].values]
+
         topBowl = thisGameBowl.sort_values('wickets',ascending=False).iloc[:2]
         topBowlList = []
         for ind, row in topBowl.iterrows():
@@ -45,7 +52,19 @@ for season in seasons:
         topBatStr = '<br>'.join(topBatList)
         topBowlStr = '<br>'.join(topBowlList)
 
+        bowlerFiguresList=[]
         for ind, row in thisGameBowl.iterrows():
+            bowlerInfo = (
+                ' '*20+'<tr>\n'+
+                ' '*22+f"<td>{row['bowler']}</td>\n"+
+                ' '*22+f"<td>{row['int_overs']}</td>\n"+
+                ' '*22+f"<td>{row['maidens']}</td>\n"+
+                ' '*22+f"<td>{row['runs']}</td>\n"+
+                ' '*22+f"<td>{row['wickets']}</td>\n"+
+                ' '*22+f"<td>{'{:.2f}'.format(row['rpo'])}</td>\n"+
+                ' '*22+f"<td>{row['sr']}</td>\n"+
+                ' '*22+f"<td>{row['extras']}</td>\n"+
+                ' '*20+'</tr>')
             '''<tr>
                 <td>{thisGameBowl.iloc[0]['bowler']}</td>
                 <td>{thisGameBowl.iloc[0]['overs']}</td>
@@ -56,6 +75,11 @@ for season in seasons:
                 <td>{thisGameBowl.iloc[0]['runs']}</td>
                 <td>{thisGameBowl.iloc[0]['extras']}</td>
             </tr>'''
+            bowlerFiguresList.append(bowlerInfo)
+        bowlerFigures='\n'.join(bowlerFiguresList)
+
+        overs=thisGameBowl['overs'].sum()
+        run_rate='{:.2f}'.format(thisGame['runs'].sum()/overs)
 
         gameHTML = f'''<!DOCTYPE html>
         <html>
@@ -195,8 +219,8 @@ for season in seasons:
                   </tr>
                   <tr>
                       <td><strong>Total</strong></td>
-                      <td></td>
-                      <td>{thisGame['runs'].sum()}</td>
+                      <td><strong>{'('+str(overs)+' Ov, RR: '+str(run_rate)+')'}</strong></td>
+                      <td><strong>{thisGame['runs'].sum()}</strong></td>
                       <td></td>
                       <td></td>
                       <td></td>
@@ -214,16 +238,7 @@ for season in seasons:
                       <th scope="col">Strike Rate</th>
                       <th scope="col">Extras</th>
                   </tr>
-                  <tr>
-                      <td>{thisGameBowl.iloc[0]['bowler']}</td>
-                      <td>{thisGameBowl.iloc[0]['overs']}</td>
-                      <td>{thisGameBowl.iloc[0]['maidens']}</td>
-                      <td>{thisGameBowl.iloc[0]['runs']}</td>
-                      <td>{thisGameBowl.iloc[0]['wickets']}</td>
-                      <td>{thisGameBowl.iloc[0]['rpo']}</td>
-                      <td>{thisGameBowl.iloc[0]['runs']}</td>
-                      <td>{thisGameBowl.iloc[0]['extras']}</td>
-                  </tr>
+    {bowlerFigures}
                   </table>
               </main>
           </body>

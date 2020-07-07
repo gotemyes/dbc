@@ -7,6 +7,9 @@ import data.teamDict as td
 batData = pd.read_csv('../data/dbc_stats - batting.csv')
 bowlData = pd.read_csv('../data/dbc_stats - batting.csv')
 
+### PROGRESS
+maxScore = batData.groupby('gameID').sum()['runs'].max()
+
 ### CAREER STATS
 
 ##innings
@@ -174,12 +177,11 @@ for opp in opponents:
     tag = f'<li><a href="./games/s{currentSeason}/{td.teamCodes[opp]}.html" target="_self">{opp}</a></li>'
     oppTags.append(tag)
 
-seasonTag = '\n          '.join(oppTags)
+seasonTag = ('\n'+' '*10).join(oppTags)
 
 
 ### CONSTRUCT HTML
-indexHTML = f'''
-<!DOCTYPE html>
+indexHTML = f'''<!DOCTYPE html>
 <html>
   <head>
     <title>DBC - The Quest For 1000</title>
@@ -189,6 +191,9 @@ indexHTML = f'''
     <header>
       <h1>DBC - The Quest For 1000</h1>
       <p> Join Barbarooza and haast_schist as they strive for greatness in the world of virtual cricket!</p>
+      <span class="meter-value">0</span>
+      <meter min="0" max="1000" value="{maxScore}" id="runs">maxScore</meter>
+      <span class="meter-value">1000</span>
       <h3><a href="./archive.html" target="_self">Previous Seasons</a></h3>
     </header>
     <main>
@@ -284,7 +289,6 @@ indexHTML = f'''
 </html>
 '''
 
-print(indexHTML)
 
 html_file= open("index.html","w")
 html_file.write(indexHTML)

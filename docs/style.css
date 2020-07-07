@@ -3,3 +3,12 @@ table, th, td {
   border: 1px solid black;
   margin-bottom: 1cm;
 }
+
+meter {
+  width: 500px;
+  height: 25px;
+}
+
+.meter-value {
+  font-style: bold;
+}
