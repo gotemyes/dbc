@@ -2,6 +2,14 @@ table, th, td {
   text-align: center;
   border: 1px solid black;
   margin-bottom: 1cm;
+  padding: 2px;
+}
+
+.organiser {
+  text-align: center;
+  border: 0px;
+  vertical-align: top;
+  padding-right: 10px;
 }
 
 meter {

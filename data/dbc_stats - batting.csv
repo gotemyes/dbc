@@ -155,27 +155,27 @@ gameID,season,position,player,handedness,opponent,controller,runs,balls_faced,di
 13,2,10,A. Patel,right,Ireland,RM,34,81,not_out,,3,0,,41.98,35.29
 13,2,11,T. Boult,right,Ireland,AA,30,67,caught_behind,G. Dockrell,3,0,347,44.78,40.00
 13,2,0,Extras,,Ireland,,26,,,,,,,0.00,#N/A
-14,2,0,T. Latham,left,Afghanistan,AA,119,177,run_out,,12,0,205,67.23,40.34
-14,2,1,T. Blundell,right,Afghanistan,RM,0,0,run_out,,0,0,4,0.00,0.00
-14,2,2,K. Williamson,right,Afghanistan,RM,100,245,caught_behind,R. Shah,8,0,231,40.82,32.00
-14,2,3,R. Taylor,right,Afghanistan,AA,11,30,caught,Z. Khan,1,0,242,36.67,36.36
-14,2,4,H. Nicholls,left,Afghanistan,RM,9,10,caught,R. Shah,1,0,241,90.00,44.44
-14,2,5,B. Watling,right,Afghanistan,RM,29,70,caught_behind,Y. Ahmadzai,3,0,301,41.43,41.38
-14,2,6,C. de Grandhomme,right,Afghanistan,AA,7,25,run_out,,0,0,264,28.00,0.00
-14,2,7,T. Southee,left,Afghanistan,AA,14,24,caught_behind,R. Khan,1,0,281,58.33,28.57
-14,2,8,N. Wagner,left,Afghanistan,AA,67,159,caught,R. Khan,5,0,407,42.14,29.85
-14,2,9,A. Patel,right,Afghanistan,RM,53,150,not_out,,1,0,,35.33,7.55
-14,2,10,T. Boult,right,Afghanistan,AA,16,46,caught_behind,R. Khan,2,0,429,34.78,50.00
-14,2,11,Extras,,Afghanistan,,4,,,,,,,0.00,#N/A
-15,2,0,T. Latham,left,Zimbabwe,AA,97,148,caught_behind,V. Ndlovu,16,0,180,65.54,65.98
-15,2,1,T. Blundell,right,Zimbabwe,RM,31,43,bowled,C. Tshuma,5,0,72,72.09,64.52
-15,2,2,K. Williamson,right,Zimbabwe,RM,26,62,caught_behind,C. Tshuma,4,0,153,41.94,61.54
-15,2,3,R. Taylor,right,Zimbabwe,RM,152,282,caught_behind,V. Ndlovu,22,1,523,53.90,61.84
-15,2,4,H. Nicholls,left,Zimbabwe,AA,26,41,caught_behind,C. Tshuma,5,0,228,63.41,76.92
-15,2,5,B. Watling,right,Zimbabwe,AA,16,19,caught_behind,V. Ndlovu,3,0,250,84.21,75.00
-15,2,6,C. de Grandhomme,right,Zimbabwe,AA,213,273,bowled,A. Nyauchi,36,0,612,78.02,67.61
-15,2,7,T. Southee,left,Zimbabwe,RM,38,78,caught_behind,D. Tiripano,5,0,612,48.72,52.63
-15,2,8,N. Wagner,left,Zimbabwe,AA,12,23,not_out,,3,0,,52.17,100.00
-15,2,9,A. Patel,right,Zimbabwe,RM,0,2,caught_bowler,D. Tiripano,0,0,612,0.00,0.00
-15,2,10,T. Boult,right,Zimbabwe,RM,17,18,caught_behind,V. Ndlovu,2,0,642,94.44,47.06
-15,2,11,Extras,,Zimbabwe,,14,,,,,,,,
+14,2,1,T. Blundell,right,Afghanistan,AA,119,177,run_out,,12,0,205,67.23,40.34
+14,2,2,T. Latham,left,Afghanistan,RM,0,0,run_out,,0,0,4,0.00,0.00
+14,2,3,K. Williamson,right,Afghanistan,RM,100,245,caught_behind,R. Shah,8,0,231,40.82,32.00
+14,2,4,R. Taylor,right,Afghanistan,AA,11,30,caught,Z. Khan,1,0,242,36.67,36.36
+14,2,5,H. Nicholls,left,Afghanistan,RM,9,10,caught,R. Shah,1,0,241,90.00,44.44
+14,2,6,B. Watling,right,Afghanistan,RM,29,70,caught_behind,Y. Ahmadzai,3,0,301,41.43,41.38
+14,2,7,C. de Grandhomme,right,Afghanistan,AA,7,25,run_out,,0,0,264,28.00,0.00
+14,2,8,T. Southee,left,Afghanistan,AA,14,24,caught_behind,R. Khan,1,0,281,58.33,28.57
+14,2,9,N. Wagner,left,Afghanistan,AA,67,159,caught,R. Khan,5,0,407,42.14,29.85
+14,2,10,A. Patel,right,Afghanistan,RM,53,150,not_out,,1,0,,35.33,7.55
+14,2,11,T. Boult,right,Afghanistan,AA,16,46,caught_behind,R. Khan,2,0,429,34.78,50.00
+14,2,0,Extras,,Afghanistan,,4,,,,,,,0.00,#N/A
+15,2,1,T. Latham,left,Zimbabwe,AA,97,148,caught_behind,V. Ndlovu,16,0,180,65.54,65.98
+15,2,2,T. Blundell,right,Zimbabwe,RM,31,43,bowled,C. Tshuma,5,0,72,72.09,64.52
+15,2,3,K. Williamson,right,Zimbabwe,RM,26,62,caught_behind,C. Tshuma,4,0,153,41.94,61.54
+15,2,4,R. Taylor,right,Zimbabwe,RM,152,282,caught_behind,V. Ndlovu,22,1,523,53.90,61.84
+15,2,5,H. Nicholls,left,Zimbabwe,AA,26,41,caught_behind,C. Tshuma,5,0,228,63.41,76.92
+15,2,6,B. Watling,right,Zimbabwe,AA,16,19,caught_behind,V. Ndlovu,3,0,250,84.21,75.00
+15,2,7,C. de Grandhomme,right,Zimbabwe,AA,213,273,bowled,A. Nyauchi,36,0,612,78.02,67.61
+15,2,8,T. Southee,left,Zimbabwe,RM,38,78,caught_behind,D. Tiripano,5,0,612,48.72,52.63
+15,2,9,N. Wagner,left,Zimbabwe,AA,12,23,not_out,,3,0,,52.17,100.00
+15,2,10,A. Patel,right,Zimbabwe,RM,0,2,caught_bowler,D. Tiripano,0,0,612,0.00,0.00
+15,2,11,T. Boult,right,Zimbabwe,RM,17,18,caught_behind,V. Ndlovu,2,0,642,94.44,47.06
+15,2,0,Extras,,Zimbabwe,,14,,,,,,,,

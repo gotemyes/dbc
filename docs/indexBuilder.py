@@ -190,7 +190,8 @@ indexHTML = f'''<!DOCTYPE html>
   <body>
     <header>
       <h1>DBC - The Quest For 1000</h1>
-      <p> Join Barbarooza and haast_schist as they strive for greatness in the world of virtual cricket!</p>
+      <p> Join Barbarooza and haast_schist as they strive for greatness in the world of virtual cricket!<br>
+      Our current goal is to reach 1000 runs in an innings of test cricket.</p>
       <span class="meter-value">0</span>
       <meter min="0" max="1000" value="{maxScore}" id="runs">maxScore</meter>
       <span class="meter-value">1000</span>
@@ -284,6 +285,12 @@ indexHTML = f'''<!DOCTYPE html>
                     <td>{total0s}</td>
                 </tr>
             </table>
+          <section>
+            <h2><a href="./statistics.html" target="_self">More Statistics</a></h2>
+          </section>
+            <figure>
+              <img src="../figures/runProgression.png" alt="Career Progression">
+            </figure>
         </main>
     </body>
 </html>
