@@ -12,3 +12,7 @@ meter {
 .meter-value {
   font-style: bold;
 }
+
+body {
+  background-color: White;
+}
