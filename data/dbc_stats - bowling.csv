@@ -1,0 +1,79 @@
+gameID,season,country,bowler,style,overs,maidens,runs,wickets,rpo,average,extras
+1,1,Ireland,T. Murtagh,RFM,14,3,56,3,4.00,18.67,5
+1,1,Ireland,C. Young,RFM,12.3,1,60,1,4.80,60.00,2
+1,1,Ireland,B. Rankin,RFM,16,0,111,2,6.94,55.50,4
+1,1,Ireland,G. Dockrell,LO,16,0,55,1,3.44,55.00,2
+1,1,Ireland,K. O'Brien,RMF,11,1,54,1,4.91,54.00,3
+1,1,Ireland,P. Stirling,RO,5,0,25,0,5.00,#N/A,1
+2,1,Zimbabwe,C. Mumba,RFM,15,1,65,1,4.33,65.00,2
+2,1,Zimbabwe,D. Tiripano,RFM,14.1,4,58,1,4.09,58.00,1
+2,1,Zimbabwe,C. Mpofu,RFM,17,4,64,3,3.76,21.33,3
+2,1,Zimbabwe,G. Cremer,RL,17,0,85,2,5.00,42.50,2
+2,1,Zimbabwe,S. Williams,LO,5,1,18,0,3.60,#N/A,0
+2,1,Zimbabwe,M. Waller,RO,9,1,27,3,3.00,9.00,0
+3,1,Afghanistan,D. Zadran,RFM,23,7,57,4,2.48,14.25,3
+3,1,Afghanistan,Y. Ahmadzai,RMF,13,3,36,1,2.77,36.00,2
+3,1,Afghanistan,M. Ashraf,RFM,20,2,72,1,3.60,72.00,3
+3,1,Afghanistan,M. Nabi,RO,19,5,50,2,2.63,25.00,0
+3,1,Afghanistan,R. Khan,RL,12,3,24,0,2.00,#N/A,2
+3,1,Afghanistan,S. Shenwari,RL,11,2,31,0,2.82,#N/A,0
+4,1,Bangladesh,M. Rahman,LFM,24,5,108,2,4.50,54.00,2
+4,1,Bangladesh,T. Ahmed,RF,23,3,77,3,3.35,25.67,1
+4,1,Bangladesh,S. Roy,RFM,15.3,3,65,3,4.19,21.67,5
+4,1,Bangladesh,S. Al-Hasan,LO,12,3,29,0,2.42,#N/A,1
+4,1,Bangladesh,M. Hasan Miraz,RO,12,3,28,0,2.33,#N/A,1
+5,1,West Indies,S. Gabriel,RF,21,4,75,2,3.57,37.50,2
+5,1,West Indies,A. Joseph,RFM,18,4,63,1,3.50,63.00,3
+5,1,West Indies,D. Bishoo,RL,22,0,66,3,3.00,22.00,1
+5,1,West Indies,J. Holder,RMF,15.3,2,60,1,3.87,60.00,1
+6,1,Sri Lanka,N. Pradeep,RFM,20,3,90,2,4.50,45.00,3
+6,1,Sri Lanka,L. Kumara,RF,17,4,74,0,4.35,#N/A,1
+6,1,Sri Lanka,R. Herath,LO,28.1,3,141,3,5.01,47.00,4
+6,1,Sri Lanka,S. Lakmal,RFM,23,7,86,1,3.74,86.00,1
+6,1,Sri Lanka,A. Mathews,RM,6,1,19,1,3.17,19.00,0
+7,1,Pakistan,M. Amir,LF,15,5,52,2,3.47,26.00,2
+7,1,Pakistan,W. Riaz,LF,15,5,31,3,2.07,10.33,1
+7,1,Pakistan,Y. Shah,RL,16.3,3,49,1,2.97,49.00,1
+7,1,Pakistan,I. Khan,RMF,14,4,44,1,3.14,44.00,0
+8,1,South Africa,M. Morkel,RF,18,2,74,1,4.11,74.00,1
+8,1,South Africa,D. Steyn,RF,19.5,5,73,5,3.68,14.60,0
+8,1,South Africa,K. Abbott,RFM,17,9,23,2,1.35,11.50,3
+8,1,South Africa,V. Philander,RFM,12,4,32,0,2.67,#N/A,1
+8,1,South Africa,J. Duminy,RO,6,1,18,1,3.00,18.00,0
+9,1,England,J. Anderson,RFM,28.2,13,64,2,2.26,32.00,2
+9,1,England,S. Broad,RFM,26,4,113,0,4.35,#N/A,3
+9,1,England,C. Woakes,RFM,31,9,113,5,3.65,22.60,8
+9,1,England,A. Rashid,RL,21,6,29,0,1.38,#N/A,1
+9,1,England,B. Stokes,RFM,14,5,40,2,2.86,20.00,1
+9,1,England,M. Ali,RO,10,1,35,1,3.50,35.00,1
+10,1,Australia,M. Starc,LF,21.2,3,57,0,2.67,#N/A,1
+10,1,Australia,J. Hazlewood,RFM,19,7,43,0,2.26,#N/A,0
+10,1,Australia,N. Lyon,RO,27,8,60,7,2.22,8.57,3
+10,1,Australia,J. Bird,RFM,18,3,71,1,3.94,71.00,2
+11,1,New Zealand,T. Southee,RMF,22,4,69,3,3.14,23.00,0
+11,1,New Zealand,T. Boult,LFM,22,3,77,0,3.50,#N/A,0
+11,1,New Zealand,D. Bracewell,RFM,22.1,2,90,3,4.06,30.00,1
+11,1,New Zealand,M. Santner,LO,12,4,26,0,2.17,#N/A,0
+11,1,New Zealand,C. Anderson,LMF,10,1,60,1,6.00,60.00,4
+12,1,India,U. Yadav,RF,49,2,260,3,5.31,86.67,7
+12,1,India,I. Sharma,RFM,54,9,194,2,3.59,97.00,3
+12,1,India,R. Ashwin,RO,60,26,71,3,1.18,23.67,4
+12,1,India,R. Jadeja,LO,30,4,68,1,2.27,68.00,0
+13,2,Ireland,T. Murtagh,RFM,27,2,113,2,4.19,56.50,11
+13,2,Ireland,C. Young,RFM,18,5,56,0,3.11,#N/A,3
+13,2,Ireland,B. Rankin,RFM,22,7,61,1,2.77,61.00,6
+13,2,Ireland,G. Dockrell,LO,24.1,7,54,4,2.23,13.50,1
+13,2,Ireland,K. O'Brien,RMF,15,2,39,3,2.60,13.00,2
+13,2,Ireland,P. Stirling,RO,6,1,20,0,3.33,#N/A,0
+14,2,Afghanistan,Y. Ahmadzai,RMF,25,1,106,1,4.24,106.00,2
+14,2,Afghanistan,A. Hamza,LO,23,3,67,0,2.91,#N/A,
+14,2,Afghanistan,R. Khan,RL,35.4,8,80,3,2.24,26.67,
+14,2,Afghanistan,Z.Khan,LU,30,8,76,1,2.53,76.00,1
+14,2,Afghanistan,M. Nabi,RO,21,3,54,0,2.57,#N/A,
+14,2,Afghanistan,S. Shenwari,RL,8,1,24,0,3.00,#N/A,1
+14,2,Afghanistan,R. Shah,RL,13,4,22,2,1.69,11.00,
+15,2,Zimbabwe,D. Tiripano,RFM,30,4,141,2,4.70,70.50,3
+15,2,Zimbabwe,V. Nyauchi,RFM,37.4,5,184,4,4.88,46.00,1
+15,2,Zimbabwe,A. Ndlovu,LO,36,13,80,1,2.22,80.00,1
+15,2,Zimbabwe,C. Tshuma,RFM,36,4,185,3,5.14,61.67,8
+15,2,Zimbabwe,T. Maruma,LO,17,3,30,0,1.76,#N/A,1
