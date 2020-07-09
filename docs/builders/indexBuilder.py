@@ -178,6 +178,13 @@ for opp in opponents:
 
 seasonTag = ('\n'+' '*10).join(oppTags)
 
+### HIGH SCORE
+highScoreID = batData.groupby('gameID').sum().sort_values('runs',ascending=False).index[0]
+highScore = batData[batData['gameID']==highScoreID]['runs'].sum()
+highScoreCountry = batData[batData['gameID']==highScoreID]['opponent'].unique()[0]
+highScoreSeason = batData[batData['gameID']==highScoreID]['season'].unique()[0]
+
+
 
 ### CONSTRUCT HTML
 indexHTML = f'''<!DOCTYPE html>
@@ -190,14 +197,17 @@ indexHTML = f'''<!DOCTYPE html>
   <body>
     <header>
       <h1>DBC - The Quest For 1000</h1>
-      <p> Join Barbarooza and haast_schist as they strive for greatness in the world of virtual cricket!<br>
-      Our current goal is to reach 1000 runs in an innings of test cricket.</p>
-      <span class="meter-value">0</span>
-      <meter min="0" max="1000" value="{maxScore}" id="runs">maxScore</meter>
-      <span class="meter-value">1000</span>
-      <h3><a href="./resources/pages/archive.html" target="_self">Previous Seasons</a></h3>
     </header>
     <main>
+      <section>
+          <p> Join Barbarooza and haast_schist as they strive for greatness in the world of virtual cricket!<br>
+          Our current goal is to reach 1000 runs in an innings of test cricket.</br>
+          Our best performance so far is {highScore} aginst {highScoreCountry} in Season {highScoreSeason}.</p>
+          <span class="meter-value">0</span>
+          <meter min="0" max="1000" value="{maxScore}" id="runs">maxScore</meter>
+          <span class="meter-value">1000</span>
+          <h3><a href="./resources/pages/archive.html" target="_self">Previous Seasons</a></h3>
+      </section>
       <section>
         <h2>Current Season ({currentSeason})</h2>
         <ol>
