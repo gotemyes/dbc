@@ -298,9 +298,6 @@ indexHTML = f'''<!DOCTYPE html>
           <section>
             <h2><a href="./resources/pages/statistics.html" target="_self">More Statistics</a></h2>
           </section>
-            <figure>
-              <img src="../figures/runProgression.png" alt="Career Progression">
-            </figure>
         </main>
     </body>
 </html>
