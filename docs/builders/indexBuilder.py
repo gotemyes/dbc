@@ -197,6 +197,11 @@ indexHTML = f'''<!DOCTYPE html>
   <body>
     <header>
       <h1>DBC - The Quest For 1000</h1>
+      <nav>
+        <a href="./index.html" target="_self">Home</a>
+        <a href="./resources/pages/archive.html" target="_self">Archive</a>
+        <a href="./resources/pages/statistics.html" target="_self">Statistics</a>
+      </nav>
     </header>
     <main>
       <section>

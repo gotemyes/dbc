@@ -222,15 +222,18 @@ statisticsHTML = f'''<!DOCTYPE html>
   <body>
     <header>
       <h1>Statistics</h1>
-      <nav>
-        <ul>
-          <li><a href="#runs" target="_self">Runs Scored</a></li>
-          <li><a href="#average" target="_self">Batting Averages</a></li>
-          <li><a href="#high_scores" target="_self">High Scores</a></li>
-          <li><a href="#partnerships" target="_self">Top 10 Partnerships</a></li>
-          <li><a href="#bowling" target="_self">Best Bowling</a></li>
-        <ul>
-      </nav>
+        <nav>
+          <a href="../../index.html" target="_self">Home</a>
+          <a href="./archive.html" target="_self">Archive</a>
+          <a href="./statistics.html" target="_self">Statistics</a>
+        </nav>
+        <div class='statistics'>
+          <a href="#runs" target="_self">Runs Scored</a>
+          <a href="#average" target="_self">Batting Averages</a>
+          <a href="#high_scores" target="_self">High Scores</a>
+          <a href="#partnerships" target="_self">Best Partnerships</a>
+          <a href="#bowling" target="_self">Best Bowling</a>
+        </div>
       <h3><a href="../../index.html" target="_self">Back To Home</a></h3>
     </header>
     <main>
@@ -330,7 +333,7 @@ statisticsHTML = f'''<!DOCTYPE html>
           </table>
       </section>
       <section>
-        <h2 id="partnerships">Top 10 Partnerships</h2>
+        <h2 id="partnerships">Best Partnerships</h2>
         <table>
           <tr>
             <th scope="col">Barbarooza</th>

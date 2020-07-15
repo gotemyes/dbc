@@ -1,3 +1,7 @@
+body {
+  font-family: sans-serif;;
+}
+
 table, th, td {
   text-align: center;
   border: 1px solid black;
@@ -30,4 +34,51 @@ h1 {
   border-color: black;
   text-align: center;
   border-style: solid;
+}
+
+nav {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  margin: 5px;
+}
+
+nav a {
+  background: darkgreen;
+  border: 1px solid darkgreen;
+  border-radius: 3px;
+  color: white;
+  display: inline-block;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+nav a:hover {
+  background: white;
+  border: 1px solid darkgreen;
+  color: darkgreen;
+}
+
+.statistics {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  margin: 5px;
+}
+
+.statistics a {
+  background: green;
+  border: 1px solid green;
+  border-radius: 3px;
+  color: white;
+  display: inline-block;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.statistics a:hover {
+  background: white;
+  border: 1px solid green;
+  color: green;
 }

@@ -44,6 +44,11 @@ archiveHTML = f'''<!DOCTYPE html>
   <body>
     <header>
       <h1>Previous Seasons</h1>
+      <nav>
+        <a href="../../index.html" target="_self">Home</a>
+        <a href="./archive.html" target="_self">Archive</a>
+        <a href="./statistics.html" target="_self">Statistics</a>
+      </nav>
       <p>Thanks for checking out the archive! Our record keeping has improved as time has gone on, so older games will have less information associated.</p>
       <h3><a href="../../index.html" target="_self">Back To Home</a></h3>
     </header>
