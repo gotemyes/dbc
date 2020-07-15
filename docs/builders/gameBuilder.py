@@ -95,7 +95,6 @@ for season in seasons:
                 <a href="../../pages/archive.html" target="_self">Archive</a>
                 <a href="../../pages/statistics.html" target="_self">Statistics</a>
               </nav>
-              <h3><a href="../../../index.html" target="_self">Back To Home</a></h3>
             </header>
               <main>
                 <h2>Highlights</h2>

@@ -211,7 +211,6 @@ indexHTML = f'''<!DOCTYPE html>
           <span class="meter-value">0</span>
           <meter min="0" max="1000" value="{maxScore}" id="runs">maxScore</meter>
           <span class="meter-value">1000</span>
-          <h3><a href="./resources/pages/archive.html" target="_self">Previous Seasons</a></h3>
       </section>
       <section>
         <h2>Current Season ({currentSeason})</h2>
@@ -300,9 +299,6 @@ indexHTML = f'''<!DOCTYPE html>
                     <td>{total0s}</td>
                 </tr>
             </table>
-          <section>
-            <h2><a href="./resources/pages/statistics.html" target="_self">More Statistics</a></h2>
-          </section>
         </main>
     </body>
 </html>

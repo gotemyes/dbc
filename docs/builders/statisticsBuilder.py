@@ -234,7 +234,6 @@ statisticsHTML = f'''<!DOCTYPE html>
           <a href="#partnerships" target="_self">Best Partnerships</a>
           <a href="#bowling" target="_self">Best Bowling</a>
         </div>
-      <h3><a href="../../index.html" target="_self">Back To Home</a></h3>
     </header>
     <main>
       <section>
