@@ -204,103 +204,103 @@ indexHTML = f'''<!DOCTYPE html>
       </nav>
     </header>
     <main>
-      <section>
+      <section class='left_block'>
+          <h2> About </h2>
           <p> Join Barbarooza and haast_schist as they strive for greatness in the world of virtual cricket!<br>
           Our current goal is to reach 1000 runs in an innings of test cricket.</br>
           Our best performance so far is {highScore} aginst {highScoreCountry} in Season {highScoreSeason}.</p>
-          <span class="meter-value">0</span>
-          <meter min="0" max="1000" value="{maxScore}" id="runs">maxScore</meter>
-          <span class="meter-value">1000</span>
       </section>
-      <section>
+      <section class='center_block'>
+      <h2>Career Statistics</h2>
+        <table>
+            <tr>
+                <td></td>
+                <th scope="col">Barbarooza</th>
+                <th scope="col">haast_schist</th>
+                <th scope="col">Overall</th>
+            </tr>
+            <tr>
+                <th scope="row">Innings</th>
+                <td>{aaInnings}</td>
+                <td>{rmInnings}</td>
+                <td>{totalInnings}</td>
+            </tr>
+            <tr>
+                <th scope="row">Not Outs</th>
+                <td>{aaNOs}</td>
+                <td>{rmNOs}</td>
+                <td>{totalNOs}</td>
+            </tr>
+            <tr>
+                <th scope="row">Runs</th>
+                <td>{aaRuns}</td>
+                <td>{rmRuns}</td>
+                <td>{totalRuns}</td>
+            </tr>
+            <tr>
+                <th scope="row">High Score</th>
+                <td>{aaHS}</td>
+                <td>{rmHS}</td>
+                <td>{totalHS}</td>
+            </tr>
+            <tr>
+                <th scope="row">Average</th>
+                <td>{aaAve}</td>
+                <td>{rmAve}</td>
+                <td>{totalAve}</td>
+            </tr>
+            <tr>
+                <th scope="row">Balls Faced</th>
+                <td>{aaBF}</td>
+                <td>{rmBF}</td>
+                <td>{totalBF}</td>
+            </tr>
+            <tr>
+                <th scope="row">Strike Rate</th>
+                <td>{aaSR}</td>
+                <td>{rmSR}</td>
+                <td>{totalSR}</td>
+            </tr>
+            <tr>
+                <th scope="row">Hundreds</th>
+                <td>{aa100s}</td>
+                <td>{rm100s}</td>
+                <td>{total100s}</td>
+            </tr>
+            <tr>
+                <th scope="row">Fifties</th>
+                <td>{aa50s}</td>
+                <td>{rm50s}</td>
+                <td>{total50s}</td>
+            </tr>
+            <tr>
+                <th scope="row">Fours</th>
+                <td>{aa4s}</td>
+                <td>{rm4s}</td>
+                <td>{total4s}</td>
+            </tr>
+            <tr>
+                <th scope="row">Sixes</th>
+                <td>{aa6s}</td>
+                <td>{rm6s}</td>
+                <td>{total6s}</td>
+            </tr>
+            <tr>
+                <th scope="row">Ducks</th>
+                <td>{aa0s}</td>
+                <td>{rm0s}</td>
+                <td>{total0s}</td>
+            </tr>
+        </table>
+      </section>
+      <section class='right_block'>
         <h2>Current Season ({currentSeason})</h2>
         <ol>
           {seasonTag}
         </ol>
       </section>
-          <h2>Career Statistics</h2>
-            <table>
-                <tr>
-                    <td></td>
-                    <th scope="col">Barbarooza</th>
-                    <th scope="col">haast_schist</th>
-                    <th scope="col">Overall</th>
-                </tr>
-                <tr>
-                    <th scope="row">Innings</th>
-                    <td>{aaInnings}</td>
-                    <td>{rmInnings}</td>
-                    <td>{totalInnings}</td>
-                </tr>
-                <tr>
-                    <th scope="row">Not Outs</th>
-                    <td>{aaNOs}</td>
-                    <td>{rmNOs}</td>
-                    <td>{totalNOs}</td>
-                </tr>
-                <tr>
-                    <th scope="row">Runs</th>
-                    <td>{aaRuns}</td>
-                    <td>{rmRuns}</td>
-                    <td>{totalRuns}</td>
-                </tr>
-                <tr>
-                    <th scope="row">High Score</th>
-                    <td>{aaHS}</td>
-                    <td>{rmHS}</td>
-                    <td>{totalHS}</td>
-                </tr>
-                <tr>
-                    <th scope="row">Average</th>
-                    <td>{aaAve}</td>
-                    <td>{rmAve}</td>
-                    <td>{totalAve}</td>
-                </tr>
-                <tr>
-                    <th scope="row">Balls Faced</th>
-                    <td>{aaBF}</td>
-                    <td>{rmBF}</td>
-                    <td>{totalBF}</td>
-                </tr>
-                <tr>
-                    <th scope="row">Strike Rate</th>
-                    <td>{aaSR}</td>
-                    <td>{rmSR}</td>
-                    <td>{totalSR}</td>
-                </tr>
-                <tr>
-                    <th scope="row">Hundreds</th>
-                    <td>{aa100s}</td>
-                    <td>{rm100s}</td>
-                    <td>{total100s}</td>
-                </tr>
-                <tr>
-                    <th scope="row">Fifties</th>
-                    <td>{aa50s}</td>
-                    <td>{rm50s}</td>
-                    <td>{total50s}</td>
-                </tr>
-                <tr>
-                    <th scope="row">Fours</th>
-                    <td>{aa4s}</td>
-                    <td>{rm4s}</td>
-                    <td>{total4s}</td>
-                </tr>
-                <tr>
-                    <th scope="row">Sixes</th>
-                    <td>{aa6s}</td>
-                    <td>{rm6s}</td>
-                    <td>{total6s}</td>
-                </tr>
-                <tr>
-                    <th scope="row">Ducks</th>
-                    <td>{aa0s}</td>
-                    <td>{rm0s}</td>
-                    <td>{total0s}</td>
-                </tr>
-            </table>
-        </main>
-    </body>
+    </main>
+  </body>
 </html>
 '''
 

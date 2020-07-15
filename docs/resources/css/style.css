@@ -1,5 +1,42 @@
 body {
-  font-family: sans-serif;;
+  font-family: sans-serif;
+    width: 990px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0px;
+    background-color: White;
+}
+
+h1 {
+  background-color: lightgreen;
+  border-color: black;
+  text-align: center;
+  border-style: solid;
+}
+
+h2 {
+  text-align: center;
+}
+
+.left_block {
+  width: 30%;
+  display: inline-block;
+  float: left;
+  position: relative;
+}
+
+.center_block {
+  width: 40%;
+  display: inline-block;
+  float: left;
+  position: relative;
+}
+
+.right_block {
+  width: 30%;
+  display: inline-block;
+  float: left;
+  position: relative;
 }
 
 table, th, td {
@@ -7,7 +44,10 @@ table, th, td {
   border: 1px solid black;
   margin-bottom: 1cm;
   padding: 2px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 
 .organiser {
   text-align: center !important;
@@ -25,16 +65,6 @@ meter {
   font-style: bold;
 }
 
-body {
-  background-color: White;
-}
-
-h1 {
-  background-color: lightgreen;
-  border-color: black;
-  text-align: center;
-  border-style: solid;
-}
 
 nav {
   position: relative;
@@ -45,19 +75,20 @@ nav {
 
 nav a {
   background: darkgreen;
-  border: 1px solid darkgreen;
+  border: 3px solid black;
   border-radius: 3px;
   color: white;
   display: inline-block;
   padding: 14px;
   text-decoration: none;
   font-size: 20px;
+  width: 90px;
 }
 
 nav a:hover {
   background: white;
-  border: 1px solid darkgreen;
-  color: darkgreen;
+  border: 3px solid black;
+  color: black;
 }
 
 .statistics {
@@ -69,16 +100,17 @@ nav a:hover {
 
 .statistics a {
   background: green;
-  border: 1px solid green;
+  border: 3px solid black;
   border-radius: 3px;
   color: white;
   display: inline-block;
   padding: 14px;
   text-decoration: none;
+  width: 130px;
 }
 
 .statistics a:hover {
   background: white;
-  border: 1px solid green;
-  color: green;
+  border: 3px solid black;
+  color: black;
 }
