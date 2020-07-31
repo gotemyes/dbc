@@ -209,6 +209,9 @@ indexHTML = f'''<!DOCTYPE html>
           <p> Join Barbarooza and haast_schist as they strive for greatness in the world of virtual cricket!<br>
           Our current goal is to reach 1000 runs in an innings of test cricket.</br>
           Our best performance so far is {highScore} aginst {highScoreCountry} in Season {highScoreSeason}.</p>
+          <!--https://www.espncricinfo.com/series/16046/scorecard/63762/sri-lanka-vs-india-1st-test-india-tour-of-sri-lanka-1997-->
+          <!--https://www.espncricinfo.com/series/18021/scorecard/1119539/england-vs-australia-3rd-odi-aus-in-eng-2018-->
+          <!--https://www.espncricinfo.com/series/19052/game/1168113/afghanistan-vs-ireland-2nd-t20i-afg-v-ire-2018-19-->
       </section>
       <section class='center_block'>
       <h2>Career Statistics</h2>
