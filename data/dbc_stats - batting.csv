@@ -203,3 +203,15 @@ gameID,season,position,player,handedness,opponent,controller,runs,balls_faced,di
 17,2,10,A. Patel,right,West Indies,RM,18,82,lbw,K. Roach,0,0,757,10,21.95,0.00
 17,2,11,T. Boult,right,West Indies,AA,3,3,not_out,,0,0,,,100.00,0.00
 17,2,0,Extras,,West Indies,,24,,,,,,,,0.00,#N/A
+18,2,1,T. Blundell,right,Pakistan,AA,43,104,caught_behind,Y. Shah,7,0,88,1,41.35,65.12
+18,2,2,T. Latham,left,Pakistan,RM,152,292,caught_gully,H. Ali,23,0,304,2,52.05,60.53
+18,2,3,K. Williamson,right,Pakistan,AA,104,235,caught_behind,J. Khan,15,0,317,3,44.26,57.69
+18,2,4,R. Taylor,right,Pakistan,RM,83,133,caught_behind,M. Abbas,15,0,451,5,62.41,72.29
+18,2,5,H. Nicholls,left,Pakistan,AA,34,69,caught_gully,H. Ali,4,0,411,4,49.28,47.06
+18,2,6,B. Watling,right,Pakistan,AA,50,105,caught_behind,M. Abbas,8,0,521,6,47.62,64.00
+18,2,7,C. de Grandhomme,right,Pakistan,RM,38,63,caught,M. Abbas,6,0,526,7,60.32,63.16
+18,2,8,T. Southee,left,Pakistan,AA,23,20,caught,H. Ali,5,0,553,8,115.00,86.96
+18,2,9,N. Wagner,left,Pakistan,RM,82,90,caught_behind,H. Ali,9,1,685,9,91.11,51.22
+18,2,10,A. Patel,right,Pakistan,AA,56,68,not_out,,4,0,,,82.35,28.57
+18,2,11,T. Boult,right,Pakistan,RM,0,5,caught_behind,H. Ali,0,0,685,10,0.00,0.00
+18,2,0,Extras,,Pakistan,,20,,,,,,,,0.00,#N/A
