@@ -49,7 +49,6 @@ archiveHTML = f'''<!DOCTYPE html>
         <a href="./archive.html" target="_self">Archive</a>
         <a href="./statistics.html" target="_self">Statistics</a>
       </nav>
-      <p>Thanks for checking out the archive! Our record keeping has improved as time has gone on, so older games will have less information associated.</p>
     </header>
     <main>
 {allSeasonTags}

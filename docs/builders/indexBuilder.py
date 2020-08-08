@@ -184,6 +184,14 @@ highScore = batData[batData['gameID']==highScoreID]['runs'].sum()
 highScoreCountry = batData[batData['gameID']==highScoreID]['opponent'].unique()[0]
 highScoreSeason = batData[batData['gameID']==highScoreID]['season'].unique()[0]
 
+### FORM GUIDE
+currentGame = batData['gameID'].max()
+recentRunsRM = batData[(batData['gameID']==currentGame)&(batData['controller']=='RM')].sum()['runs']
+recentRunsAA = batData[(batData['gameID']==currentGame)&(batData['controller']=='AA')].sum()['runs']
+recentRunsTotal = batData[(batData['gameID']==currentGame)].sum()['runs']
+recentAveRM = recentRunsRM/batData[(batData['gameID']==currentGame)&(batData['controller']=='RM')&(~pd.isnull(batData['wicket']))].count()['runs']
+recentAveAA = recentRunsAA/batData[(batData['gameID']==currentGame)&(batData['controller']=='AA')&(~pd.isnull(batData['wicket']))].count()['runs']
+recentAveTotal = recentRunsTotal/batData[(batData['gameID']==currentGame)&(~pd.isnull(batData['wicket']))].count()['runs']
 
 
 ### CONSTRUCT HTML
@@ -293,6 +301,27 @@ indexHTML = f'''<!DOCTYPE html>
                 <td>{aa0s}</td>
                 <td>{rm0s}</td>
                 <td>{total0s}</td>
+            </tr>
+        </table>
+        <h2>Last Match Stats</h2>
+        <table>
+            <tr>
+                <td></td>
+                <th scope="col">Barbarooza</th>
+                <th scope="col">haast_schist</th>
+                <th scope="col">Overall</th>
+            </tr>
+            <tr>
+                <th scope="row">Runs</th>
+                <td>{recentRunsAA}</td>
+                <td>{recentRunsRM}</td>
+                <td>{recentRunsTotal}</td>
+            </tr>
+            <tr>
+                <th scope="row">Average</th>
+                <td>{recentAveAA}</td>
+                <td>{recentAveRM}</td>
+                <td>{recentAveTotal}</td>
             </tr>
         </table>
       </section>
