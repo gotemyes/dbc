@@ -215,3 +215,15 @@ gameID,season,position,player,handedness,opponent,controller,runs,balls_faced,di
 18,2,10,A. Patel,right,Pakistan,AA,56,68,not_out,,4,0,,,82.35,28.57
 18,2,11,T. Boult,right,Pakistan,RM,0,5,caught_behind,H. Ali,0,0,685,10,0.00,0.00
 18,2,0,Extras,,Pakistan,,20,,,,,,,,0.00,#N/A
+19,2,1,T. Latham,left,South Africa,AA,69,143,run_out,,7,0,193,2,48.25,40.58
+19,2,2,T. Blundell,right,South Africa,RM,27,54,caught_short_leg,K. Maharaj,4,0,61,1,50.00,59.26
+19,2,3,K. Williamson,right,South Africa,RM,353,500,caught_behind,D. Pretorius,66,0,692,4,70.60,74.79
+19,2,4,R. Taylor,right,South Africa,AA,7,5,caught_behind,D. Paterson,1,0,200,3,140.00,57.14
+19,2,5,H. Nicholls,left,South Africa,AA,216,371,caught_short_leg,K. Maharaj,32,0,734,5,58.22,59.26
+19,2,6,B. Watling,right,South Africa,RM,22,36,caught_behind,K. Maharaj,4,0,741,6,61.11,72.73
+19,2,7,C. de Grandhomme,right,South Africa,AA,45,91,caught,D. Pretorius,6,0,835,7,49.45,53.33
+19,2,8,T. Southee,left,South Africa,RM,156,255,caught_behind,L. Ngidi,22,1,1062,10,61.18,60.26
+19,2,9,N. Wagner,left,South Africa,AA,102,140,caught,K. Rabada,18,0,1049,8,72.86,70.59
+19,2,10,A. Patel,right,South Africa,AA,0,2,caught,K. Rabada,0,0,1049,9,0.00,0.00
+19,2,11,T. Boult,right,South Africa,AA,5,2,not_out,,1,0,,,250.00,80.00
+19,2,0,Extras,,South Africa,,60,,,,,,,,,

@@ -41,7 +41,7 @@ aaRuns = batData[batData['controller']=='AA']['runs'].sum()
 rmRuns = batData[batData['controller']=='RM']['runs'].sum()
 if aaRuns>rmRuns:
     aaRuns='<strong>'+str(aaRuns)+'</strong>'
-elif aaRuns<rmInnings:
+elif aaRuns<rmRuns:
     rmRuns='<strong>'+str(rmRuns)+'</strong>'
 else:
     aaRuns='<strong>'+str(aaRuns)+'</strong>'
@@ -215,7 +215,7 @@ indexHTML = f'''<!DOCTYPE html>
       <section class='left_block'>
           <h2> About </h2>
           <p> Join Barbarooza and haast_schist as they strive for greatness in the world of virtual cricket!<br>
-          Our current goal is to reach 1000 runs in an innings of test cricket.</br>
+          Our current goal is to reach 1000 runs in an innings of test cricket against each test playing nation.</br>
           Our best performance so far is {highScore} aginst {highScoreCountry} in Season {highScoreSeason}.</p>
           <!--https://www.espncricinfo.com/series/16046/scorecard/63762/sri-lanka-vs-india-1st-test-india-tour-of-sri-lanka-1997-->
           <!--https://www.espncricinfo.com/series/18021/scorecard/1119539/england-vs-australia-3rd-odi-aus-in-eng-2018-->
