@@ -319,8 +319,8 @@ indexHTML = f'''<!DOCTYPE html>
             </tr>
             <tr>
                 <th scope="row">Average</th>
-                <td>{recentAveAA}</td>
-                <td>{recentAveRM}</td>
+                <td>{round(recentAveAA,2)}</td>
+                <td>{round(recentAveRM,2)}</td>
                 <td>{recentAveTotal}</td>
             </tr>
         </table>
