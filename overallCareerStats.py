@@ -135,6 +135,7 @@ ax[1,1].set_title('Innings Distribution')
 plt.subplots_adjust(wspace=0.3,hspace=0.3)
 
 if __name__ == '__main__':
+    plt.savefig('./figures/careerSummary.png')
     plt.show()
 else:
     plt.savefig('./figures/careerSummary.png')

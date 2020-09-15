@@ -96,3 +96,9 @@ gameID,season,country,bowler,style,overs,maidens,runs,wickets,rpo,average,extras
 19,2,South Africa,K. Maharaj,LO,63,19,114,3,1.81,38.00,6
 19,2,South Africa,D. Paterson,RFM,48,24,76,1,1.58,76.00,4
 19,2,South Africa,D. Pretorius,RMF,38,0,197,2,5.18,98.50,13
+20,2,Sri Lanka,S. Lakmal,RFM,59.1,13,206,4,3.48,51.50,7
+20,2,Sri Lanka,L. Kumara,RF,47,5,188,2,4.00,94.00,5
+20,2,Sri Lanka,D. Perera,RO,54,20,91,1,1.69,91.00,2
+20,2,Sri Lanka,N. Pradeep,RFM,42,9,162,0,3.86,#N/A,10
+20,2,Sri Lanka,D. de Silva,RO,20,7,29,1,1.45,29.00,1
+20,2,Sri Lanka,A. Mathews,RM,5,2,13,0,2.60,#N/A,0
