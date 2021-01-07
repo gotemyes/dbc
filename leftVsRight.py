@@ -65,6 +65,7 @@ ax[1,1].legend(['left','right'],loc='upper center',bbox_to_anchor=(0.5, 1.25))
 plt.suptitle('Left vs Right Composition')
 
 if __name__ == '__main__':
+    plt.savefig('./figures/leftVsRight.png')
     plt.show()
 else:
     plt.savefig('./figures/leftVsRight.png')

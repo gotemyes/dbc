@@ -105,6 +105,7 @@ ax[1].set_title('Player contributions')
 
 
 if __name__ == '__main__':
+    plt.savefig('./figures/playerBreakdown.png')
     plt.show()
 else:
     plt.savefig('./figures/playerBreakdown.png')

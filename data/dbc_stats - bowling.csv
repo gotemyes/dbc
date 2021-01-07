@@ -102,3 +102,9 @@ gameID,season,country,bowler,style,overs,maidens,runs,wickets,rpo,average,extras
 20,2,Sri Lanka,N. Pradeep,RFM,42,9,162,0,3.86,#N/A,10
 20,2,Sri Lanka,D. de Silva,RO,20,7,29,1,1.45,29.00,1
 20,2,Sri Lanka,A. Mathews,RM,5,2,13,0,2.60,#N/A,0
+21,2,England,J. Anderson,RFM,37,2,215,2,5.81,107.50,7
+21,2,England,S. Broad,RFM,41,7,163,3,3.98,54.33,9
+21,2,England,C. Woakes,RFM,28,11,83,1,2.96,83.00,2
+21,2,England,J. Leach,LO,22.2,12,22,1,0.99,22.00,0
+21,2,England,S. Curran,LMF,16,1,76,0,4.75,#N/A,3
+21,2,England,B. Stokes,RFM,11,0,41,1,3.73,41.00,2

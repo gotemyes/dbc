@@ -238,4 +238,16 @@ gameID,season,position,player,handedness,opponent,controller,runs,balls_faced,di
 20,2,9,N. Wagner,left,Sri Lanka,AA,54,82,caught_behind,S. Lakmal,7,0,633,8,65.85,51.85
 20,2,10,A. Patel,right,Sri Lanka,AA,26,66,caught_behind,S. Lakmal,0,0,689,10,39.39,0.00
 20,2,11,T. Boult,right,Sri Lanka,RM,23,46,not_out,,3,0,,,50.00,52.17
-20,2,,Extras,,Sri Lanka,,26,,,,,,,,0.00,#N/A
+20,2,0,Extras,,Sri Lanka,,26,,,,,,,,0.00,#N/A
+21,2,1,T. Latham,left,England,AA,38,43,caught_behind,C. Woakes,6,0,57,1,88.37,63.16
+21,2,2,T. Blundell,right,England,RM,109,252,caught_behind,S. Broad,15,0,327,3,43.25,55.05
+21,2,3,K. Williamson,right,England,AA,152,185,caught_behind,S. Broad,25,0,285,2,82.16,65.79
+21,2,4,R. Taylor,right,England,AA,58,71,caught_behind,S. Broad,12,0,405,6,81.69,82.76
+21,2,5,H. Nicholls,left,England,RM,22,38,bowled,B. Stokes,1,0,370,4,57.89,18.18
+21,2,6,B. Watling,right,England,RM,14,18,run_out,,3,0,405,5,77.78,85.71
+21,2,7,C. de Grandhomme,right,England,RM,86,142,caught_behind,J. Anderson,12,0,580,9,60.56,55.81
+21,2,8,T. Southee,left,England,AA,7,27,run_out,,1,0,428,7,25.93,57.14
+21,2,9,N. Wagner,left,England,AA,54,69,lbw,J. Anderson,9,0,519,8,78.26,66.67
+21,2,10,A. Patel,right,England,AA,33,84,caught_behind,J. Leach,3,0,600,10,39.29,36.36
+21,2,11,T. Boult,right,England,RM,4,10,not_out,,1,0,,,40.00,100.00
+21,2,0,Extras,,England,,23,,,,,,,,,
