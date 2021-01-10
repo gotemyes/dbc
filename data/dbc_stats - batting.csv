@@ -250,4 +250,16 @@ gameID,season,position,player,handedness,opponent,controller,runs,balls_faced,di
 21,2,9,N. Wagner,left,England,AA,54,69,lbw,J. Anderson,9,0,519,8,78.26,66.67
 21,2,10,A. Patel,right,England,AA,33,84,caught_behind,J. Leach,3,0,600,10,39.29,36.36
 21,2,11,T. Boult,right,England,RM,4,10,not_out,,1,0,,,40.00,100.00
-21,2,0,Extras,,England,,23,,,,,,,,,
+21,2,0,Extras,,England,,23,,,,,,,,0.00,#N/A
+22,2,1,T. Blundell,right,India,AA,0,4,caught_behind,J. Bumrah,0,0,0,1,0.00,0.00
+22,2,2,T. Latham,left,India,RM,109,195,caught,R. Ashwin,20,0,179,3,55.90,73.39
+22,2,3,K. Williamson,right,India,AA,49,139,caught,M. Shami,6,0,154,2,35.25,48.98
+22,2,4,R. Taylor,right,India,AA,11,44,caught_behind,R. Ashwin,1,0,184,4,25.00,36.36
+22,2,5,H. Nicholls,left,India,RM,112,187,bowled,M. Shami,22,0,369,8,59.89,78.57
+22,2,6,B. Watling,right,India,AA,3,20,caught_behind,I. Sharma,0,0,212,5,15.00,0.00
+22,2,7,C. de Grandhomme,right,India,AA,23,34,caught,M. Shami,4,0,244,6,67.65,69.57
+22,2,8,T. Southee,left,India,AA,29,78,caught_gully,M. Shami,4,0,333,7,37.18,55.17
+22,2,9,N. Wagner,left,India,AA,35,127,lbw,R. Ashwin,5,0,430,10,27.56,57.14
+22,2,10,A. Patel,right,India,RM,17,36,caught_behind,M. Shami,0,0,388,9,47.22,0.00
+22,2,11,T. Boult,right,India,RM,21,38,not_out,,3,0,,,55.26,57.14
+22,2,,Extras,,India,,21,,,,,,,,0.00,#N/A
