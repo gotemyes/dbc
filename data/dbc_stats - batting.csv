@@ -263,3 +263,15 @@ gameID,season,position,player,handedness,opponent,controller,runs,balls_faced,di
 22,2,10,A. Patel,right,India,RM,17,36,caught_behind,M. Shami,0,0,388,9,47.22,0.00
 22,2,11,T. Boult,right,India,RM,21,38,not_out,,3,0,,,55.26,57.14
 22,2,,Extras,,India,,21,,,,,,,,0.00,#N/A
+23,2,1,T. Latham,left,New Zealand,AA,23,44,run_out,,5,0,52,1,52.27,86.96
+23,2,2,T. Blundell,right,New Zealand,RM,103,191,caught_behind,N. Wagner,18,0,234,3,53.93,69.90
+23,2,3,K. Williamson,right,New Zealand,AA,35,47,caught_behind,K. Jamieson,6,0,105,2,74.47,68.57
+23,2,4,R. Taylor,right,New Zealand,AA,81,137,caught_behind,T. Boult,15,0,266,4,59.12,74.07
+23,2,5,H. Nicholls,left,New Zealand,RM,240,414,caught_fine_leg,N. Wagner,41,0,691,8,57.97,68.33
+23,2,6,B. Watling,right,New Zealand,AA,6,32,caught_behind,T. Boult,1,0,302,5,18.75,66.67
+23,2,7,C. de Grandhomme,right,New Zealand,AA,48,119,caught_behind,N. Wagner,5,0,451,6,40.34,41.67
+23,2,8,T. Southee,left,New Zealand,AA,29,132,caught_behind,N. Wagner,4,0,535,7,21.97,55.17
+23,2,9,N. Wagner,left,New Zealand,AA,193,234,bowled,N. Wagner,35,0,828,9,82.48,72.54
+23,2,10,A. Patel,right,New Zealand,RM,82,242,run_out,,3,0,954,10,33.88,14.63
+23,2,11,T. Boult,right,New Zealand,AA,81,119,not_out,,13,0,,,68.07,64.20
+23,2,,Extras,,New Zealand,,33,,,,,,,,0.00,#N/A
