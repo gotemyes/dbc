@@ -275,3 +275,15 @@ gameID,season,position,player,handedness,opponent,controller,runs,balls_faced,di
 23,2,10,A. Patel,right,New Zealand,RM,82,242,run_out,,3,0,954,10,33.88,14.63
 23,2,11,T. Boult,right,New Zealand,AA,81,119,not_out,,13,0,,,68.07,64.20
 23,2,,Extras,,New Zealand,,33,,,,,,,,0.00,#N/A
+24,2,1,T. Blundell,right,Australia,AA,342,886,lbw,N. Lyon,42,0,757,3,38.60,49.12
+24,2,2,T. Latham,left,Australia,RM,208,512,run_out,,25,0,472,1,40.63,48.08
+24,2,3,K. Williamson,right,Australia,RM,82,240,bowled,M. Starc,12,0,684,2,34.17,58.54
+24,2,4,R. Taylor,right,Australia,RM,89,161,run_out,,12,0,825,4,55.28,53.93
+24,2,5,H. Nicholls,left,Australia,AA,92,165,caught,J. Hazlewood,10,2,935,5,55.76,56.52
+24,2,6,B. Watling,right,Australia,RM,53,117,caught,M. Starc,8,0,1004,7,45.30,60.38
+24,2,7,C. de Grandhomme,right,Australia,AA,41,41,caught,M. Starc,6,0,991,6,100.00,58.54
+24,2,8,T. Southee,left,Australia,AA,55,44,caught,M. Starc,10,0,1089,9,125.00,72.73
+24,2,9,N. Wagner,left,Australia,RM,14,16,bowled,J. Hazlewood,2,0,1046,8,87.50,57.14
+24,2,10,A. Patel,right,Australia,RM,63,35,caught_behind,M. Starc,9,0,1137,10,180.00,57.14
+24,2,11,T. Boult,right,Australia,AA,10,18,not_out,,2,0,,,55.56,80.00
+24,2,,Extras,,Australia,,88,,,,,,,,,
